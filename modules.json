@@ -1,0 +1,20 @@
+{
+  "modules": [
+    {
+      "id": "00ce0760-e943-49f5-b7be-47d0351dc991",
+      "status": "AVALAIBLE",
+      "name": "Mirakl",
+      "description": "Module Mirakl API v1.",
+      "icon": "https://res-2.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco/bvsfjywixsu6wsuomjiz",
+      "tags": [
+        "Mirakl",
+        "marketplace"
+      ],
+      "documentation": "https://lienIcon/documentation.html",
+      "version": "0.1.5",
+      "published": false,
+      "dateCreation": "2020-11-09T16:30:45.530Z",
+      "dateModification": "2020-11-09T16:30:45.530Z"
+    }
+  ]
+}
