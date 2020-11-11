@@ -49,6 +49,38 @@
   "dateCreation": "2020-11-09T16:39:18.637Z",
   "dateModification": "2020-11-09T16:39:18.637Z",
   "errors": "Deploy Error + log deploy"
+},{
+"id": "00ce0760-e943-49f5-b7be-47d0351dc992",
+  "status": "AVAILABLE",
+  "name": "PCI",
+  "description": "Platform credit insurance An innovative approach to trade credit supporting the needs of platforms and marketplaces.",
+  "icon": "https://marjory-partner.s3.us-east-2.amazonaws.com/logo/pci.png",
+  "tags": [
+    "PCI",
+    "marketplace"
+  ],
+   "documentation": "string",
+  "version": "0.1.5",
+  "published": false,
+  "shared": false,
+   "actions": [
+    {
+      "id": "faeafed8-1d64-472d-bf00-cb1d805849fe",
+      "moduleId": "00ce0760-e943-49f5-b7be-47d0351dc992",
+      "name": "PCI GetCompany By GUID",
+      "moduleName": "PCI",
+      "description": "string",
+      "icon": "https://marjory-partner.s3.us-east-2.amazonaws.com/logo/pci.png",
+      "tags": [
+        "PCI",
+        "marketplace"
+      ],
+      "events": [
+        "orderCreated"
+      ],
+      "schedules": false
+    }
+  ]
 }
   ]
 }
