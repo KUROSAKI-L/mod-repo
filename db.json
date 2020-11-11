@@ -117,7 +117,7 @@
          ]
       },
       {
-         "id":"00ce0760-e943-49f5-b7be-47d0351dc990",
+         "id":"00ce0760-e943-49f5-b7be-47d0351dc190",
          "name":"Lemon Way",
          "icon":"https://marjory-partner.s3.us-east-2.amazonaws.com/logo/lemonway.png",
          "actions":[
@@ -125,7 +125,7 @@
          ]
       },
       {
-         "id":"00ce0760-e943-49f5-b7be-47d0351dc990",
+         "id":"00ce0760-e943-49f5-b7be-47d0351dc590",
          "name":"FinexKap",
          "icon":"https://marjory-partner.s3.us-east-2.amazonaws.com/logo/finexkap.png",
          "actions":[
@@ -133,9 +133,17 @@
          ]
       },
       {
-         "id":"00ce0760-e943-49f5-b7be-47d0351dc990",
+         "id":"00ce0760-e943-49f5-b7be-47d0351dc940",
          "name":"Stripe",
          "icon":"https://marjory-partner.s3.us-east-2.amazonaws.com/logo/stripe.png",
+         "actions":[
+            
+         ]
+      },
+      {
+         "id":"00ce0760-e943-49f5-b7be-47d0351de990",
+         "name":"YouSign",
+         "icon":"https://marjory-partner.s3.us-east-2.amazonaws.com/logo/yousign.png",
          "actions":[
             
          ]
