@@ -86,7 +86,7 @@
       {
          "id":"00ce0760-e943-49f5-b7be-47d0351dc990",
          "name":"digiteal",
-         "icon":"https://marjory-partner.s3.us-east-2.amazonaws.com/logo/digiteal.png",
+         "icon":"https://gitlab.com/uploads/-/system/project/avatar/19320280/digiteal.png",
          "description":"Platform credit insurance An innovative approach to trade credit supporting the needs of platforms and marketplaces.",
          "status":"AVAILABLE",
          "tags":[
@@ -104,7 +104,7 @@
                "name":"PCI GetCompany By GUID",
                "moduleName":"PCI",
                "description":"string",
-               "icon":"https://marjory-partner.s3.us-east-2.amazonaws.com/logo/pci.png",
+               "icon":"https://gitlab.com/uploads/-/system/project/avatar/19320280/digiteal.png",
                "tags":[
                   "PCI",
                   "marketplace"
