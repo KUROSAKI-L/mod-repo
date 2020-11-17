@@ -164,6 +164,20 @@
          "actions":[
             
          ]
+      },{
+        "id":"00ce3760-e943-49f5-berbe-47d0351de990",
+         "name":"YouSign2.0",
+         "icon":"https://marjory-partner.s3.us-east-2.amazonaws.com/logo/yousign.png",
+         "actions":[
+            
+         ]
+      },{
+        "id":"00ce3760-e943-49f5-ferbe-47d0351de990",
+         "name":"YouSign-3.0",
+         "icon":"https://marjory-partner.s3.us-east-2.amazonaws.com/logo/yousign.png",
+         "actions":[
+            
+         ]
       }
    ]
 }
