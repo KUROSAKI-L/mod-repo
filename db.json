@@ -1,4 +1,5 @@
 { 
+       "parameters":[],
       "installations":[{
       "id":"innstallation1",
       "name":"service Mirakl",
@@ -12,8 +13,7 @@
             "Mirakl",
             "marketplace"
          ]
-      },
-       "parameters":[]
+      }
 }],
       
      "modules":[
