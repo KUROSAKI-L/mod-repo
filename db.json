@@ -1,199 +1,206 @@
-{ 
-       "parameters":[],
-      "installations":[{
-      "id":"innstallation1",
-      "name":"service Mirakl",
-      "module":{
-      "id":"00ce0760-e943-49f5-b7be-47d0351dc991",
-         "status":"AVALAIBLE",
-         "name":"Mirakl",
-         "description":"string",
-         "icon":"https://res-2.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco/bvsfjywixsu6wsuomjiz",
-         "tags":[
-            "Mirakl",
-            "marketplace"
+{
+   "parameters": [
+      {
+         "installationId": "",
+         "parameters": [
+            {
+               "key": "xApiKey"
+            },
+            {
+               "key": "url"
+            }
          ]
       }
-}],
-      
-     "modules":[
+   ],
+   "installations": [
       {
-         "id":"00ce0760-e943-49f5-b7be-47d0351dc991",
-         "status":"AVALAIBLE",
-         "name":"Mirakl",
-         "description":"string",
-         "icon":"https://res-2.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco/bvsfjywixsu6wsuomjiz",
-         "tags":[
+         "id": "innstallation1",
+         "name": "service Mirakl",
+         "module": {
+            "id": "00ce0760-e943-49f5-b7be-47d0351dc991",
+            "status": "AVALAIBLE",
+            "name": "Mirakl",
+            "description": "string",
+            "icon": "https://res-2.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco/bvsfjywixsu6wsuomjiz",
+            "tags": [
+               "Mirakl",
+               "marketplace"
+            ],
+            "credentials": [
+               "xApiKey",
+               "url"
+            ]
+         }
+      }
+   ],
+   "modules": [
+      {
+         "id": "00ce0760-e943-49f5-b7be-47d0351dc991",
+         "status": "AVALAIBLE",
+         "name": "Mirakl",
+         "description": "string",
+         "icon": "https://res-2.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco/bvsfjywixsu6wsuomjiz",
+         "tags": [
             "Mirakl",
             "marketplace"
          ],
-         "documentation":"string",
-         "version":"0.1.5",
-         "published":false,
-         "shared":false,
-         "actions":[
+         "documentation": "string",
+         "version": "0.1.5",
+         "published": false,
+         "shared": false,
+         "actions": [
             {
-               "id":"faeafed8-1d64-472d-bf00-cb1d805849ee",
-               "moduleId":"00ce0760-e943-49f5-b7be-47d0351dc991",
-               "name":"Create Order",
-               "moduleName":"Mirakl",
-               "description":"string",
-               "icon":"https://res-2.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco/bvsfjywixsu6wsuomjiz",
-               "tags":[
+               "id": "faeafed8-1d64-472d-bf00-cb1d805849ee",
+               "moduleId": "00ce0760-e943-49f5-b7be-47d0351dc991",
+               "name": "Create Order",
+               "moduleName": "Mirakl",
+               "description": "string",
+               "icon": "https://res-2.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco/bvsfjywixsu6wsuomjiz",
+               "tags": [
                   "Mirakl",
                   "marketplace"
                ],
-               "events":[
+               "events": [
                   "orderCreated"
                ],
-               "schedules":false
+               "schedules": false
             },
-             {
-               "id":"faeafed8-1d64-472d-bf00-cb1d8043849ee",
-               "moduleId":"00ce0760-e943-49f5-b7be-47d0351dc991",
-               "name":"Approve Order",
-               "moduleName":"Mirakl",
-               "description":"string",
-               "icon":"https://res-2.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco/bvsfjywixsu6wsuomjiz",
-               "tags":[
+            {
+               "id": "faeafed8-1d64-472d-bf00-cb1d8043849ee",
+               "moduleId": "00ce0760-e943-49f5-b7be-47d0351dc991",
+               "name": "Approve Order",
+               "moduleName": "Mirakl",
+               "description": "string",
+               "icon": "https://res-2.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco/bvsfjywixsu6wsuomjiz",
+               "tags": [
                   "Mirakl",
                   "marketplace"
                ],
-               "events":[
+               "events": [
                   "orderCreated"
                ],
-               "schedules":false
+               "schedules": false
             }
          ],
-         "events":[
+         "events": [
             "orderCreated",
             "orderInvalidated"
          ],
-         "schedules":[
+         "schedules": [
             "search Offer",
             "search Order",
             "search Shop"
          ],
-         "credentials":[
+         "credentials": [
             "xApiKey",
             "url"
          ],
-         "lambdaArn":"arn:aws:lambda:us-west-2:123456789012:function:00ce0760-e943-49f5-b7be-47d0351dc991",
-         "dateCreation":"2020-11-09T16:39:18.637Z",
-         "dateModification":"2020-11-09T16:39:18.637Z",
-         "errors":"Deploy Error + log deploy"
+         "lambdaArn": "arn:aws:lambda:us-west-2:123456789012:function:00ce0760-e943-49f5-b7be-47d0351dc991",
+         "dateCreation": "2020-11-09T16:39:18.637Z",
+         "dateModification": "2020-11-09T16:39:18.637Z",
+         "errors": "Deploy Error + log deploy"
       },
       {
-         "id":"00ce0760-e943-49f5-b7be-47d0351dc992",
-         "status":"AVAILABLE",
-         "name":"PCI",
-         "description":"Platform credit insurance An innovative approach to trade credit supporting the needs of platforms and marketplaces.",
-         "icon":"https://marjory-partner.s3.us-east-2.amazonaws.com/logo/pci.png",
-         "tags":[
+         "id": "00ce0760-e943-49f5-b7be-47d0351dc992",
+         "status": "AVAILABLE",
+         "name": "PCI",
+         "description": "Platform credit insurance An innovative approach to trade credit supporting the needs of platforms and marketplaces.",
+         "icon": "https://marjory-partner.s3.us-east-2.amazonaws.com/logo/pci.png",
+         "tags": [
             "PCI",
             "marketplace"
          ],
-         "documentation":"string",
-         "version":"0.1.5",
-         "published":false,
-         "shared":false,
-         "actions":[
+         "documentation": "string",
+         "version": "0.1.5",
+         "published": false,
+         "shared": false,
+         "actions": [
             {
-               "id":"faeafed8-1d64-472d-bf00-cb1d805849fe",
-               "moduleId":"00ce0760-e943-49f5-b7be-47d0351dc992",
-               "name":"PCI GetCompany By GUID",
-               "moduleName":"PCI",
-               "description":"string",
-               "icon":"https://marjory-partner.s3.us-east-2.amazonaws.com/logo/pci.png",
-               "tags":[
+               "id": "faeafed8-1d64-472d-bf00-cb1d805849fe",
+               "moduleId": "00ce0760-e943-49f5-b7be-47d0351dc992",
+               "name": "PCI GetCompany By GUID",
+               "moduleName": "PCI",
+               "description": "string",
+               "icon": "https://marjory-partner.s3.us-east-2.amazonaws.com/logo/pci.png",
+               "tags": [
                   "PCI",
                   "marketplace"
                ],
-               "events":[
+               "events": [
                   "orderCreated"
                ],
-               "schedules":false
+               "schedules": false
             }
          ]
       },
       {
-         "id":"00ce0760-e943-49f5-b7be-47d0351dc990",
-         "name":"digiteal",
-         "icon":"https://pbs.twimg.com/profile_images/965565364393439233/1H15Lv6Q_400x400.jpg",
-         "description":"Platform credit insurance An innovative approach to trade credit supporting the needs of platforms and marketplaces.",
-         "status":"AVAILABLE",
-         "tags":[
+         "id": "00ce0760-e943-49f5-b7be-47d0351dc990",
+         "name": "digiteal",
+         "icon": "https://pbs.twimg.com/profile_images/965565364393439233/1H15Lv6Q_400x400.jpg",
+         "description": "Platform credit insurance An innovative approach to trade credit supporting the needs of platforms and marketplaces.",
+         "status": "AVAILABLE",
+         "tags": [
             "Digiteal",
             "marketplace"
          ],
-         "documentation":"string",
-         "version":"0.1.5",
-         "published":false,
-         "shared":false,
-         "actions":[
+         "documentation": "string",
+         "version": "0.1.5",
+         "published": false,
+         "shared": false,
+         "actions": [
             {
-               "id":"faeafed8-1d64-472d-bf00-cb1d805849f3",
-               "moduleId":"00ce0760-e943-49f5-b7be-47d0351dc990",
-               "name":"PCI GetCompany By GUID",
-               "moduleName":"PCI",
-               "description":"string",
-               "icon":"https://pbs.twimg.com/profile_images/965565364393439233/1H15Lv6Q_400x400.jpg",
-               "tags":[
+               "id": "faeafed8-1d64-472d-bf00-cb1d805849f3",
+               "moduleId": "00ce0760-e943-49f5-b7be-47d0351dc990",
+               "name": "PCI GetCompany By GUID",
+               "moduleName": "PCI",
+               "description": "string",
+               "icon": "https://pbs.twimg.com/profile_images/965565364393439233/1H15Lv6Q_400x400.jpg",
+               "tags": [
                   "PCI",
                   "marketplace"
                ],
-               "events":[
+               "events": [
                   "orderCreated"
                ],
-               "schedules":false
+               "schedules": false
             }
          ]
       },
       {
-         "id":"00ce0760-e943-49f5-b7be-47d0351dc190",
-         "name":"Lemon Way",
-         "icon":"https://marjory-partner.s3.us-east-2.amazonaws.com/logo/lemonway.png",
-         "actions":[
-            
-         ]
+         "id": "00ce0760-e943-49f5-b7be-47d0351dc190",
+         "name": "Lemon Way",
+         "icon": "https://marjory-partner.s3.us-east-2.amazonaws.com/logo/lemonway.png",
+         "actions": []
       },
       {
-         "id":"00ce0760-e943-49f5-b7be-47d0351dc590",
-         "name":"FinexKap",
-         "icon":"https://marjory-partner.s3.us-east-2.amazonaws.com/logo/finexkap.png",
-         "actions":[
-            
-         ]
+         "id": "00ce0760-e943-49f5-b7be-47d0351dc590",
+         "name": "FinexKap",
+         "icon": "https://marjory-partner.s3.us-east-2.amazonaws.com/logo/finexkap.png",
+         "actions": []
       },
       {
-         "id":"00ce0760-e943-49f5-b7be-47d0351dc940",
-         "name":"Stripe",
-         "icon":"https://marjory-partner.s3.us-east-2.amazonaws.com/logo/stripe.png",
-         "actions":[
-            
-         ]
+         "id": "00ce0760-e943-49f5-b7be-47d0351dc940",
+         "name": "Stripe",
+         "icon": "https://marjory-partner.s3.us-east-2.amazonaws.com/logo/stripe.png",
+         "actions": []
       },
       {
-         "id":"00ce3760-e943-49f5-b7be-47d0351de990",
-         "name":"YouSign",
-         "icon":"https://marjory-partner.s3.us-east-2.amazonaws.com/logo/yousign.png",
-         "actions":[
-            
-         ]
-      },{
-        "id":"00ce3760-e943-49f5-berbe-47d0351de990",
-         "name":"YouSign2.0",
-         "icon":"https://marjory-partner.s3.us-east-2.amazonaws.com/logo/yousign.png",
-         "actions":[
-            
-         ]
-      },{
-        "id":"00ce3760-e943-49f5-ferbe-47d0351de990",
-         "name":"YouSign-3.0",
-         "icon":"https://marjory-partner.s3.us-east-2.amazonaws.com/logo/yousign.png",
-         "actions":[
-            
-         ]
+         "id": "00ce3760-e943-49f5-b7be-47d0351de990",
+         "name": "YouSign",
+         "icon": "https://marjory-partner.s3.us-east-2.amazonaws.com/logo/yousign.png",
+         "actions": []
+      },
+      {
+         "id": "00ce3760-e943-49f5-berbe-47d0351de990",
+         "name": "YouSign2.0",
+         "icon": "https://marjory-partner.s3.us-east-2.amazonaws.com/logo/yousign.png",
+         "actions": []
+      },
+      {
+         "id": "00ce3760-e943-49f5-ferbe-47d0351de990",
+         "name": "YouSign-3.0",
+         "icon": "https://marjory-partner.s3.us-east-2.amazonaws.com/logo/yousign.png",
+         "actions": []
       }
    ]
 }
