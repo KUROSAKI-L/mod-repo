@@ -16,7 +16,7 @@
       {
          "id": "innstallation1",
          "name": "service Mirakl",
-         "module": {
+         "modules": {
             "id": "00ce0760-e943-49f5-b7be-47d0351dc991",
             "status": "AVALAIBLE",
             "name": "Mirakl",
@@ -35,7 +35,7 @@
       {
          "id": "innstallation2",
          "name": "service Stripe A",
-         "module": {
+         "modules": {
                  "id": "00ce0760-e943-49f5-b7be-47d0351dc940",
                  "name": "Stripe",
                  "icon": "https://marjory-partner.s3.us-east-2.amazonaws.com/logo/stripe.png",
